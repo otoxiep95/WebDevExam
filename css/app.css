@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  height: 45px;
+  background-color: white;
+}
+
+/*********** HOME PAGE **************/
+
+.main__search {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+.main__search div {
+  display: grid;
+  grid-gap: 20px;
+  width: 70%;
+  justify-items: center;
+  align-items: center;
+}
+.main__search form {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 7fr 1fr;
+}
+
+.main__search input {
+  width: 100%;
+  height: 45px;
+  padding-left: 10px;
+  border-radius: 7px;
+  font-size: 120%;
+  border: none;
+  outline: none;
+}
+
+.logout__link {
+  display: none;
+}
+.login__signup__modal {
+  display: none;
+}
+
+/*********** PROPERTIES PAGE ***********/
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  width: 100%;
+  height: 100vh;
+}
+.map__img {
+  background-image: url("mapScreenshot.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.properties__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 50px;
+  column-gap: 15px;
+  row-gap: 20px;
+  overflow-y: scroll;
+}
+.property {
+  box-shadow: -5px 6px 16px -8px rgba(0, 0, 0, 0.37);
+  border: rgb(77, 77, 247) solid 0.1px;
+  border-bottom: rgb(77, 77, 247) solid 5px;
+  background-color: rgb(242, 244, 246);
+}
+.property img {
+  width: 100%;
+  height: 250px;
+}
+.property__info {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  width: 100%;
+  padding: 2px 4px 5px 4px;
+}
+.property__status {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+
+  background-color: red;
+  border-radius: 50%;
+}
+
+/****** SIGNUP PAGE *******/
+
+.signupContainer,
+.loginContainer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.signupContainer div,
+.loginContainer div {
+  display: grid;
+  grid-gap: 20px;
+  width: 70%;
+  justify-items: center;
+  align-items: center;
+}
+.signupContainer form,
+.loginContainer form {
+  display: grid;
+  row-gap: 20px;
+  width: 30%;
+}
+
+.signupContainer input,
+.loginContainer input {
+  width: 100%;
+  height: 45px;
+  padding-left: 10px;
+  border-radius: 7px;
+  font-size: 120%;
+  border: none;
+  outline: none;
+}

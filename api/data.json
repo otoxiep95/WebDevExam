@@ -1,0 +1,11 @@
+{
+    "users": {
+        "04f4ceb79a12ef3038f3741bd596ee94": {
+            "name": null,
+            "lastName": null,
+            "email": null,
+            "password": null,
+            "image": "default.png"
+        }
+    }
+}
