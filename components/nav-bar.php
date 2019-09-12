@@ -33,7 +33,7 @@
             if ($_SESSION['id'][0] == 'A') {
                 echo '<a href="agent-profile.php">My Profile</a>';
             } elseif ($_SESSION['id'][0] == 'U') {
-                echo '<a href="agent-profile.php">My Profile</a>';
+                echo '<a href="user-profile.php">My Profile</a>';
             }
         }
 

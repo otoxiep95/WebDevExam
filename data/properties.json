@@ -1,0 +1,110 @@
+[
+    {
+        "id": "5d7a90d111799",
+        "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
+        "price": 2222,
+        "address": "aaaaaaa",
+        "zipcode": "2400",
+        "image": "5d7a90d111794",
+        "geometry": {
+            "coordinates": [],
+            "type": "Point"
+        }
+    },
+    {
+        "id": "5d7a90d144e5b",
+        "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
+        "price": 2222,
+        "address": "aaaaaaa",
+        "zipcode": "2400",
+        "image": "5d7a90d144e58",
+        "geometry": {
+            "coordinates": [],
+            "type": "Point"
+        }
+    },
+    {
+        "id": "5d7a90d173b8b",
+        "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
+        "price": 2222,
+        "address": "aaaaaaa",
+        "zipcode": "2400",
+        "image": "5d7a90d173b86",
+        "geometry": {
+            "coordinates": [],
+            "type": "Point"
+        }
+    },
+    {
+        "id": "5d7a90d430b2e",
+        "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
+        "price": 2222,
+        "address": "aaaaaaa",
+        "zipcode": "2400",
+        "image": "5d7a90d430b2b",
+        "geometry": {
+            "coordinates": [],
+            "type": "Point"
+        }
+    },
+    {
+        "id": "5d7a90d61e875",
+        "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
+        "price": 2222,
+        "address": "aaaaaaa",
+        "zipcode": "2400",
+        "image": "5d7a90d61e873",
+        "geometry": {
+            "coordinates": [],
+            "type": "Point"
+        }
+    },
+    {
+        "id": "5d7a9106e64d5",
+        "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
+        "price": 2222,
+        "address": "aaaaaaa",
+        "zipcode": "2400",
+        "image": "5d7a9106e64d3",
+        "geometry": {
+            "coordinates": [],
+            "type": "Point"
+        }
+    },
+    {
+        "id": "5d7a9107d385c",
+        "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
+        "price": 2222,
+        "address": "aaaaaaa",
+        "zipcode": "2400",
+        "image": "5d7a9107d385a",
+        "geometry": {
+            "coordinates": [],
+            "type": "Point"
+        }
+    },
+    {
+        "id": "5d7a91082239b",
+        "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
+        "price": 2222,
+        "address": "aaaaaaa",
+        "zipcode": "2400",
+        "image": "5d7a91082239a",
+        "geometry": {
+            "coordinates": [],
+            "type": "Point"
+        }
+    },
+    {
+        "id": "5d7a910a82390",
+        "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
+        "price": 2222,
+        "address": "aaaaaaa",
+        "zipcode": "2400",
+        "image": "5d7a910a82389",
+        "geometry": {
+            "coordinates": [],
+            "type": "Point"
+        }
+    }
+]

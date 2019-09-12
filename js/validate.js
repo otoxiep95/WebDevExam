@@ -29,6 +29,12 @@ function fnbIsFormValid(oForm) {
           oElement.classList.add("error");
         }
         break;
+      case "zipcode":
+        var re = /^(?:[1-24-9]\d{3}|3[0-8]\d{2})$/;
+        if (re.test(String(sValue).toLowerCase()) == false) {
+          oElement.classList.add("error");
+        }
+        break;
       default:
     }
   });
@@ -48,6 +54,16 @@ function fvLogin() {
   console.log("clicked");
   var frmLogin = document.querySelector("#frmLogin");
   return fnbIsFormValid(frmLogin);
+}
+function fvAddProperty() {
+  console.log("clicked");
+  var frmAddProperty = document.querySelector("#addPropertyForm");
+  if (fnbIsFormValid(frmAddProperty)) {
+    createProperty();
+  } else {
+    console.log("return false");
+    return false;
+  }
 }
 
 // **************************************************
