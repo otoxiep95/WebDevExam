@@ -65,7 +65,7 @@ include_once(__DIR__ . '/components/nav-bar.php');
         <input value="a@a.com" name="inpEmail" data-type="email" type="text" placeholder="email">
         <input value="password" name="inpPassword" data-type="string" data-min="6" data-max="20" type="text" placeholder="Password (Min 6 characters)">
 
-        <button id="btnLogin" onclick="return fvLogin(this)" data-start="LOGIN" data-wait="WAIT ...">SIGNUP</button>
+        <button id="btnLogin" onclick="return fvLogin(this)" data-start="LOGIN" data-wait="WAIT ...">LOGIN</button>
     </form>
 </div>
 

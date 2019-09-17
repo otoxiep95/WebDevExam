@@ -1,109 +1,151 @@
 [
     {
-        "id": "5d7a90d111799",
+        "id": "5d80e3c89a79e",
         "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
-        "price": 2222,
-        "address": "aaaaaaa",
+        "price": "8500000",
+        "address": "Oster All\u00e9 5",
         "zipcode": "2400",
-        "image": "5d7a90d111794",
+        "image": "5d80e3c89a79c.jpg",
         "geometry": {
-            "coordinates": [],
+            "coordinates": [
+                12.451328,
+                55.646375
+            ],
             "type": "Point"
         }
     },
     {
-        "id": "5d7a90d144e5b",
+        "id": "5d80e401b276e",
         "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
-        "price": 2222,
-        "address": "aaaaaaa",
+        "price": 5500000,
+        "address": "Oster All\u00e9 9",
         "zipcode": "2400",
-        "image": "5d7a90d144e58",
+        "image": "5d80e401b276a.jpg",
         "geometry": {
-            "coordinates": [],
+            "coordinates": [
+                12.427126,
+                55.765457
+            ],
             "type": "Point"
         }
     },
     {
-        "id": "5d7a90d173b8b",
+        "id": "5d80e45e119d8",
         "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
-        "price": 2222,
-        "address": "aaaaaaa",
+        "price": 21000000,
+        "address": "Oster All\u00e9 21",
         "zipcode": "2400",
-        "image": "5d7a90d173b86",
+        "image": "5d80e45e119d6.jpg",
         "geometry": {
-            "coordinates": [],
+            "coordinates": [
+                12.255386999999999,
+                55.72629
+            ],
             "type": "Point"
         }
     },
     {
-        "id": "5d7a90d430b2e",
+        "id": "5d80e4db14f73",
         "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
-        "price": 2222,
-        "address": "aaaaaaa",
-        "zipcode": "2400",
-        "image": "5d7a90d430b2b",
+        "price": 14000000,
+        "address": "Pladehals All\u00e9 7",
+        "zipcode": "2450",
+        "image": "5d80e4db14f71.jpg",
         "geometry": {
-            "coordinates": [],
+            "coordinates": [
+                12.411498,
+                55.682182999999995
+            ],
             "type": "Point"
         }
     },
     {
-        "id": "5d7a90d61e875",
+        "id": "5d80e4f1ad43c",
         "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
-        "price": 2222,
-        "address": "aaaaaaa",
-        "zipcode": "2400",
-        "image": "5d7a90d61e873",
+        "price": 9500000,
+        "address": "Pladehals All\u00e9 20",
+        "zipcode": "2450",
+        "image": "5d80e4f1ad43a.jpg",
         "geometry": {
-            "coordinates": [],
+            "coordinates": [
+                12.304257,
+                55.625074999999995
+            ],
             "type": "Point"
         }
     },
     {
-        "id": "5d7a9106e64d5",
-        "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
-        "price": 2222,
-        "address": "aaaaaaa",
-        "zipcode": "2400",
-        "image": "5d7a9106e64d3",
+        "id": "5d80e5d761856",
+        "agentId": "A2f2c5a3182d792714f207623826f0769",
+        "price": 17000000,
+        "address": "Nodre Telghom 4",
+        "zipcode": "2450",
+        "image": "5d80e5d761853.jpg",
         "geometry": {
-            "coordinates": [],
+            "coordinates": [
+                12.346914,
+                55.721443
+            ],
             "type": "Point"
         }
     },
     {
-        "id": "5d7a9107d385c",
-        "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
-        "price": 2222,
-        "address": "aaaaaaa",
-        "zipcode": "2400",
-        "image": "5d7a9107d385a",
+        "id": "5d80e5f88eeda",
+        "agentId": "A2f2c5a3182d792714f207623826f0769",
+        "price": 15000000,
+        "address": "Nodre Telghom 8",
+        "zipcode": "2450",
+        "image": "5d80e5f88eed8.jpg",
         "geometry": {
-            "coordinates": [],
+            "coordinates": [
+                12.343522,
+                55.708313
+            ],
             "type": "Point"
         }
     },
     {
-        "id": "5d7a91082239b",
-        "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
-        "price": 2222,
-        "address": "aaaaaaa",
-        "zipcode": "2400",
-        "image": "5d7a91082239a",
+        "id": "5d80e64113de3",
+        "agentId": "A2f2c5a3182d792714f207623826f0769",
+        "price": "10000000",
+        "address": "Nodre Telghom 17",
+        "zipcode": "2450",
+        "image": "5d80e64113de1.jpg",
         "geometry": {
-            "coordinates": [],
+            "coordinates": [
+                12.411095999999999,
+                55.713072999999994
+            ],
             "type": "Point"
         }
     },
     {
-        "id": "5d7a910a82390",
-        "agentId": "A9a6e101ebfee8680ef6fbc9e5dd5e578",
-        "price": 2222,
-        "address": "aaaaaaa",
-        "zipcode": "2400",
-        "image": "5d7a910a82389",
+        "id": "5d80e7135c3c2",
+        "agentId": "A2f2c5a3182d792714f207623826f0769",
+        "price": 7900000,
+        "address": "Nodre  Telgkai 2",
+        "zipcode": "2450",
+        "image": "5d80e7135c3c0.jpg",
         "geometry": {
-            "coordinates": [],
+            "coordinates": [
+                12.338094,
+                55.702991
+            ],
+            "type": "Point"
+        }
+    },
+    {
+        "id": "5d80e748790a2",
+        "agentId": "A2f2c5a3182d792714f207623826f0769",
+        "price": 13500000,
+        "address": "Nodre  Telgkai 32",
+        "zipcode": "2450",
+        "image": "5d80e748790a0.jpg",
+        "geometry": {
+            "coordinates": [
+                12.505177,
+                55.695056
+            ],
             "type": "Point"
         }
     }

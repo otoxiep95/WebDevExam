@@ -55,5 +55,5 @@
 
 
         </div>
-        <a class="logout__link" href="">Logout</a>
+
     </nav>

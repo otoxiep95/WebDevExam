@@ -1,10 +1,37 @@
 {
-  "U0d071bdc0ab832e0d3f7d9fa5002c7f4": {
-    "name": "albe",
-    "lastName": "albe",
-    "email": "a@a.com",
-    "password": "password",
-    "image": "default.png",
-    "likedProperties": []
-  }
+    "U0d071bdc0ab832e0d3f7d9fa5002c7f4": {
+        "name": "alberto",
+        "lastName": "albe",
+        "email": "a@a.com",
+        "password": "password",
+        "image": "default.png",
+        "likedProperties": [
+            "5d7e39c38f5df",
+            "5d7e3949d8ccf"
+        ]
+    },
+    "U8e1a31e6769dad69b2f006f997727de8": {
+        "name": "joey",
+        "lastName": "diez",
+        "email": "jd@gmail.com",
+        "password": "joeypass",
+        "image": "default.png",
+        "likedProperties": []
+    },
+    "U03da30c9a2cd0753401cea2ca6917322": {
+        "name": "maynard",
+        "lastName": "keenan",
+        "email": "mk@gmail.com",
+        "password": "maynardpass",
+        "image": "default.png",
+        "likedProperties": []
+    },
+    "Uc8082cc6e54e2ed49df5b16755527ed8": {
+        "name": "joe",
+        "lastName": "rogan",
+        "email": "jr@hotmail.com",
+        "password": "joepass",
+        "image": "default.png",
+        "likedProperties": []
+    }
 }

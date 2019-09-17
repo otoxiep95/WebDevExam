@@ -15,12 +15,12 @@ nav {
   top: 0;
   left: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
   width: 100%;
   height: 70px;
-  box-shadow: 1px 2px 21px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 2px 21px 0px rgba(95, 66, 66, 0.7);
   background-color: rgb(253, 238, 237);
   z-index: 10;
 }
@@ -110,8 +110,13 @@ nav a img {
   color: white;
   font-size: 1.8rem;
 }
+
 .main__search form {
+  width: 100%;
+}
+.main__search .search_bar {
   display: grid;
+  position: relative;
   width: 100%;
   grid-template-columns: 7fr 1fr;
 }
@@ -125,12 +130,104 @@ nav a img {
   border: none;
   outline: none;
 }
-
-.logout__link {
+.main__search button {
+  width: 100%;
+  height: 100%;
+  font-size: 120%;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: rgb(255, 111, 97);
+  color: rgb(253, 241, 241);
+}
+#results {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
   display: none;
 }
-.login__signup__modal {
+#results div {
+  height: 30px;
+  display: grid;
+  grid-gap: 30px;
+  justify-items: left;
+  align-items: center;
+  padding-left: 10px;
+}
+#results a {
+  text-decoration: none;
+  color: rgb(255, 111, 97);
+}
+
+.newsletter__btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 111, 97);
+  color: white;
+  cursor: pointer;
+}
+.newsletter__modal {
   display: none;
+  justify-items: center;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.37);
+  z-index: 20;
+}
+.newsletter__modal form {
+  display: grid;
+  position: relative;
+  justify-items: center;
+  align-items: center;
+  row-gap: 20px;
+  padding: 30px;
+  width: 50%;
+  border-radius: 10px;
+  background-color: rgb(255, 111, 97);
+}
+.newsletter__modal .close__modal {
+  color: white;
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.newsletter__modal h2 {
+  color: white;
+}
+.newsletter__modal input {
+  width: 100%;
+  height: 45px;
+  padding-left: 10px;
+  border-radius: 7px;
+  font-size: 120%;
+  border: none;
+  outline: none;
+  background-color: rgb(253, 238, 237);
+}
+.newsletter__modal input::placeholder {
+  color: rgb(255, 111, 97);
+}
+
+.newsletter__modal button {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(253, 238, 237);
+  color: rgb(255, 111, 97);
 }
 
 /*********** PROPERTIES PAGE ***********/
@@ -163,31 +260,54 @@ nav a img {
   z-index: 3;
 }
 .property {
-  box-shadow: -5px 6px 16px -8px rgba(0, 0, 0, 0.37);
+  width: 100%;
+  max-height: 400px;
+  box-shadow: -5px 6px 16px -8px rgba(95, 66, 66, 0.7);
   border: rgb(255, 111, 97) solid 0.1px;
   border-bottom: rgb(255, 111, 97) solid 5px;
   background-color: rgb(253, 241, 241);
+  padding-bottom: 30px;
 }
 .property img {
   width: 100%;
-  height: 250px;
 }
 .property__info {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  row-gap: 10px;
   width: 100%;
-  padding: 2px 4px 5px 4px;
+  padding: 8px 4px 5px 10px;
+  color: rgb(255, 111, 97);
 }
 .property__status {
   display: grid;
   grid-template-columns: 1fr;
 }
+.property__buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 20px;
+}
+.property__buttons button {
+  width: 80%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: rgb(255, 111, 97);
+  color: rgb(253, 241, 241);
+}
 
-.dot {
-  width: 5px;
-  height: 5px;
-  background-color: red;
+.marker {
+  display: block;
+  border: rgb(250, 129, 118) solid 1px;
+  background-color: rgb(251, 224, 222);
   border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.active {
+  border: rgb(255, 111, 97) 3px solid;
 }
 
 /****** SIGNUP PAGE *******/
@@ -204,6 +324,8 @@ nav a img {
 
 .signupContainer form {
   display: grid;
+  justify-items: center;
+  align-items: center;
   row-gap: 20px;
   width: 40%;
   height: 70%;
@@ -213,6 +335,8 @@ nav a img {
 }
 .loginContainer form {
   display: grid;
+  justify-items: center;
+  align-items: center;
   row-gap: 20px;
   width: 40%;
   height: 50%;
@@ -241,6 +365,16 @@ nav a img {
 .loginContainer input::placeholder {
   color: rgb(250, 129, 118);
 }
+.signupContainer button,
+.loginContainer button {
+  width: 80%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: rgb(253, 241, 241);
+  color: rgb(255, 111, 97);
+}
 
 /********* USER/AGENT PROFILE **********/
 
@@ -251,12 +385,21 @@ nav a img {
   top: 70px;
   height: calc(100vh - 70px);
   position: fixed;
+  background-color: rgb(255, 250, 250);
 }
-#profile .left {
+#profile .left,
+#profile .right {
   padding-top: 50px;
 }
+#profile .left h1,
+#profile .right h1 {
+  padding-left: 20px;
+}
+#profile .right {
+  height: 100vh;
+}
 
-#profileInfo {
+#agent_profileInfo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
@@ -266,24 +409,58 @@ nav a img {
   align-items: center;
 }
 
-#profileInfo img {
+#user_profileInfo {
+  display: grid;
+  width: 100%;
+  height: 85vh;
+  row-gap: 15px;
+  justify-items: center;
+  align-items: center;
+}
+#agent_profileInfo .agent_inputs {
+  width: 100%;
+  display: grid;
+  row-gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+#agent_profileInfo img,
+#user_profileInfo img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
 
-#profileInfo input {
+#agent_profileInfo input,
+#user_profileInfo input {
   width: 80%;
   height: 45px;
   padding-left: 10px;
   border-radius: 7px;
   font-size: 120%;
-  background-color: rgb(253, 238, 237);
+  background-color: rgb(251, 224, 222);
   border: 1px solid rgb(253, 238, 237);
   outline: none;
 }
-#agent_properties {
+
+#user_profileInfo a,
+#agent_profileInfo a {
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  outline: none;
+  background-color: rgb(255, 111, 97);
+  color: rgb(253, 241, 241);
+}
+.right h1 {
+  color: rgb(255, 111, 97);
+}
+
+#agent_properties,
+#likedProperties {
   display: grid;
+  height: calc(100vh - 160px);
   padding-top: 50px;
   padding-left: 20px;
   padding-right: 20px;
@@ -291,8 +468,10 @@ nav a img {
   row-gap: 20px;
   overflow-y: scroll;
 }
-#agent_properties .property {
+#agent_properties .property,
+#likedProperties .property {
   display: grid;
+  max-height: 250px;
   width: 100%;
   grid-template-columns: 2fr 3fr;
   column-gap: 10px;
@@ -305,7 +484,13 @@ nav a img {
   align-items: center;
 }
 
-#agent_properties .agent__property__info {
+#likedProperties .agent__property__info {
+  padding: 10px;
+  color: rgb(255, 111, 97);
+}
+
+#agent_properties .agent__property__info,
+#likedProperties .agent__property__info {
   display: grid;
 }
 
@@ -330,7 +515,8 @@ nav a img {
 #agent_properties .property h4 {
   padding: 0;
 }
-#agent_properties .property button {
+#agent_properties .property button,
+#likedProperties .property button {
   width: 30%;
   height: 70%;
   border: none;
@@ -342,24 +528,46 @@ nav a img {
 
 /*********** ADD PROPERTY FORM ***********/
 #addProperty {
+  display: grid;
+  justify-items: center;
+  align-items: center;
   width: 100%;
+  height: 350px;
   padding: 30px;
 }
 
 #addProperty form {
+  width: 80%;
+  height: 100%;
   display: grid;
-  row-gap: 20px;
+  justify-items: center;
+  align-items: center;
+  row-gap: 15px;
 }
 #addProperty form input {
   width: 100%;
   font-size: 120%;
-  background-color: rgb(253, 238, 237);
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(251, 224, 222);
   border: 1px solid rgb(253, 238, 237);
   outline: none;
+  padding-left: 10px;
+}
+#addProperty button {
+  width: 60%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: rgb(255, 111, 97);
+  color: rgb(253, 241, 241);
 }
 
 /********** USABLE CLASSES ************/
 
 input.error {
-  background-color: rgba(198, 38, 65, 0.1) !important;
+  background-color: rgba(255, 21, 0, 0.2);
+  border: red 2px solid !important;
+  color: white;
 }

@@ -1,10 +1,26 @@
 {
-  "A9a6e101ebfee8680ef6fbc9e5dd5e578": {
-    "name": "albe",
-    "lastName": "albe",
-    "email": "a@a.com",
-    "password": "password",
-    "image": "default.png",
-    "properties": []
-  }
+    "A9a6e101ebfee8680ef6fbc9e5dd5e578": {
+        "name": "Alberto",
+        "lastName": "Pacheco",
+        "email": "albertoPacheco@homax.com",
+        "password": "password",
+        "image": "default.png",
+        "properties": []
+    },
+    "Ae5d62caf641c0292ace12e488f62005b": {
+        "name": "test",
+        "lastName": "test",
+        "email": "tt@test.com",
+        "password": "testpass",
+        "image": "default.png",
+        "properties": []
+    },
+    "A2f2c5a3182d792714f207623826f0769": {
+        "name": "donal",
+        "lastName": "trump",
+        "email": "djt@homax.com",
+        "password": "trumppass",
+        "image": "default.png",
+        "properties": []
+    }
 }

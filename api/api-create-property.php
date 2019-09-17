@@ -73,12 +73,19 @@ $jProperty->agentId = $agentId;
 $jProperty->price = intVal($_POST['inpPrice']);
 $jProperty->address = $_POST['inpAddress'];
 $jProperty->zipcode = $_POST['inpZip'];
-$jProperty->image = $sUniqueImageName;
+$jProperty->image = $sUniqueImageName . '.' . $sExtention;
 $jProperty->geometry = new stdClass();
-$jProperty->geometry->coordinates = [];
+
+$randLon = (float) rand(12322222, 12619999) * 0.000001;
+$randLat = (float) rand(55660000, 55729999) * 0.000001;
+
+
+$jProperty->geometry->coordinates = [$randLon, $randLat];
 $jProperty->geometry->type = "Point";
 
-move_uploaded_file($_FILES['inpImage']['tmp_name'], __DIR__ . "/../images/property-img/$sUniqueImageName");
+
+
+move_uploaded_file($_FILES['inpImage']['tmp_name'], __DIR__ . "/../images/property-img/$sUniqueImageName.$sExtention");
 array_push($aProperties, $jProperty);
 
 $sjaProperties = json_encode($aProperties, JSON_PRETTY_PRINT);
